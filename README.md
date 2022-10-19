@@ -4,12 +4,12 @@
 
 1. Install the dependencies
 
-```dart pub update```
+    ```dart pub install```
 
 2. Build runner
 
-```dart pub run build_runner build```
+    ```dart pub run build_runner build```
 
 3. Run the test
 
-```dart test```
+    ```dart test```
