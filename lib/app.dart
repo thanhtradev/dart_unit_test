@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:rxdart_state_management_article/features/universities_feed/presentation/screen/universities_screen.dart';
+import 'package:dart_unit_test/features/universities_feed/presentation/screen/universities_screen.dart';
 
 class MyApp extends StatelessWidget {
   const MyApp({Key? key}) : super(key: key);

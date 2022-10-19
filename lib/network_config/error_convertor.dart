@@ -1,7 +1,7 @@
 import 'dart:convert';
 
 import 'package:dio/dio.dart';
-import 'package:rxdart_state_management_article/network_config/api_error.dart';
+import 'package:dart_unit_test/network_config/api_error.dart';
 
 class ErrorConverter extends InterceptorsWrapper {
   @override

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:logging/logging.dart';
-import 'package:rxdart_state_management_article/app.dart';
-import 'package:rxdart_state_management_article/utils/app_config.dart';
+import 'package:dart_unit_test/app.dart';
+import 'package:dart_unit_test/utils/app_config.dart';
 
 void main() {
   _setupLogging();

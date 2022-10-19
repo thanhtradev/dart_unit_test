@@ -3,7 +3,7 @@ import 'dart:typed_data';
 
 import 'package:dio/dio.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:rxdart_state_management_article/utils/extensions/map_extensions.dart';
+import 'package:dart_unit_test/utils/extensions/map_extensions.dart';
 
 class DioMockResponsesAdapter extends HttpClientAdapter {
   final MockAdapterInterceptor interceptor;

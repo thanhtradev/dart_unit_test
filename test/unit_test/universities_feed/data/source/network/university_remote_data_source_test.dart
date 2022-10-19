@@ -1,12 +1,12 @@
 import 'package:flutter_test/flutter_test.dart';
 import 'package:mockito/annotations.dart';
 import 'package:mockito/mockito.dart';
-import 'package:rxdart_state_management_article/features/universities_feed/data/source/network/endpoint/university_endpoint.dart';
-import 'package:rxdart_state_management_article/features/universities_feed/data/source/network/model/api_university_model.dart';
-import 'package:rxdart_state_management_article/features/universities_feed/data/source/university_remote_data_source.dart';
-import 'package:rxdart_state_management_article/features/universities_feed/domain/entity/university.dart';
-import 'package:rxdart_state_management_article/network_config/api_error.dart';
-import 'package:rxdart_state_management_article/network_config/app_result.dart';
+import 'package:dart_unit_test/features/universities_feed/data/source/network/endpoint/university_endpoint.dart';
+import 'package:dart_unit_test/features/universities_feed/data/source/network/model/api_university_model.dart';
+import 'package:dart_unit_test/features/universities_feed/data/source/university_remote_data_source.dart';
+import 'package:dart_unit_test/features/universities_feed/domain/entity/university.dart';
+import 'package:dart_unit_test/network_config/api_error.dart';
+import 'package:dart_unit_test/network_config/app_result.dart';
 
 import 'university_remote_data_source_test.mocks.dart';
 

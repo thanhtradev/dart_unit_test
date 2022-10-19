@@ -1,8 +1,8 @@
-import 'package:rxdart_state_management_article/features/universities_feed/data/repository/university_repository_impl.dart';
-import 'package:rxdart_state_management_article/features/universities_feed/domain/repository/untiversities_repository.dart';
-import 'package:rxdart_state_management_article/features/universities_feed/presentation/models/university_screen_model.dart';
-import 'package:rxdart_state_management_article/features/universities_feed/presentation/models/university_screen_state.dart';
-import 'package:rxdart_state_management_article/network_config/app_result.dart';
+import 'package:dart_unit_test/features/universities_feed/data/repository/university_repository_impl.dart';
+import 'package:dart_unit_test/features/universities_feed/domain/repository/untiversities_repository.dart';
+import 'package:dart_unit_test/features/universities_feed/presentation/models/university_screen_model.dart';
+import 'package:dart_unit_test/features/universities_feed/presentation/models/university_screen_state.dart';
+import 'package:dart_unit_test/network_config/app_result.dart';
 
 class GetUniversitiesByCountryUseCase {
   final UniversitiesRepository _universitiesRepository;

@@ -1,7 +1,7 @@
 import 'package:dio/dio.dart';
 import 'package:logging/logging.dart';
-import 'package:rxdart_state_management_article/network_config/error_convertor.dart';
-import 'package:rxdart_state_management_article/utils/app_config.dart';
+import 'package:dart_unit_test/network_config/error_convertor.dart';
+import 'package:dart_unit_test/utils/app_config.dart';
 
 extension DioClientExtension on Dio {
   static Dio createUniversitiesApiClient({

@@ -1,4 +1,4 @@
-import 'package:rxdart_state_management_article/utils/extensions/iterable_extensions.dart';
+import 'package:dart_unit_test/utils/extensions/iterable_extensions.dart';
 
 extension MapExtensions<K, V> on Map<K, V> {
   bool hasSameElementsAs(Map<K, V>? other) {

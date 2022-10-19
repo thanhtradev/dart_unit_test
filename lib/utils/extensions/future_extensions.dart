@@ -1,6 +1,6 @@
 import 'package:rxdart/rxdart.dart';
-import 'package:rxdart_state_management_article/network_config/api_error.dart';
-import 'package:rxdart_state_management_article/network_config/app_result.dart';
+import 'package:dart_unit_test/network_config/api_error.dart';
+import 'package:dart_unit_test/network_config/app_result.dart';
 
 extension FutureExtension<T> on Future<T> {
   Stream<AppResult<T>> safeApi() {

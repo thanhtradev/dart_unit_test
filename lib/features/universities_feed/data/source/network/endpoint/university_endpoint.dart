@@ -1,6 +1,6 @@
 import 'package:dio/dio.dart';
 import 'package:retrofit/retrofit.dart';
-import 'package:rxdart_state_management_article/features/universities_feed/data/source/network/model/api_university_model.dart';
+import 'package:dart_unit_test/features/universities_feed/data/source/network/model/api_university_model.dart';
 
 part 'university_endpoint.g.dart';
 

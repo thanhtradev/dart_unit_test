@@ -1,6 +1,6 @@
 import 'package:flutter/foundation.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
-import 'package:rxdart_state_management_article/network_config/api_error.dart';
+import 'package:dart_unit_test/network_config/api_error.dart';
 
 part 'app_result.freezed.dart';
 

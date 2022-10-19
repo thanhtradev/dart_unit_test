@@ -1,6 +1,6 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:rxdart_state_management_article/features/universities_feed/data/source/network/model/api_university_model.dart';
-import 'package:rxdart_state_management_article/features/universities_feed/domain/entity/university.dart';
+import 'package:dart_unit_test/features/universities_feed/data/source/network/model/api_university_model.dart';
+import 'package:dart_unit_test/features/universities_feed/domain/entity/university.dart';
 
 void main() {
   Map<String, dynamic> apiUniversityOneAsJson = {

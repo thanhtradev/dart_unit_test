@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:rxdart/rxdart.dart';
-import 'package:rxdart_state_management_article/features/universities_feed/presentation/models/university_screen_model.dart';
-import 'package:rxdart_state_management_article/features/universities_feed/presentation/models/university_screen_state.dart';
-import 'package:rxdart_state_management_article/features/universities_feed/presentation/screen/universities_view_model.dart';
-import 'package:rxdart_state_management_article/network_config/app_result.dart';
+import 'package:dart_unit_test/features/universities_feed/presentation/models/university_screen_model.dart';
+import 'package:dart_unit_test/features/universities_feed/presentation/models/university_screen_state.dart';
+import 'package:dart_unit_test/features/universities_feed/presentation/screen/universities_view_model.dart';
+import 'package:dart_unit_test/network_config/app_result.dart';
 
 class UniversitiesScreenManualSubscription extends StatefulWidget {
   const UniversitiesScreenManualSubscription({Key? key}) : super(key: key);

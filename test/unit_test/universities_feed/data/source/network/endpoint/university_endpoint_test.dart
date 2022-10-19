@@ -1,7 +1,7 @@
 import 'package:dio/dio.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:rxdart_state_management_article/features/universities_feed/data/source/network/endpoint/university_endpoint.dart';
-import 'package:rxdart_state_management_article/features/universities_feed/data/source/network/model/api_university_model.dart';
+import 'package:dart_unit_test/features/universities_feed/data/source/network/endpoint/university_endpoint.dart';
+import 'package:dart_unit_test/features/universities_feed/data/source/network/model/api_university_model.dart';
 
 import '../../../../../network_config/mock_interceptor/dio_mock_responses_adapter.dart';
 
