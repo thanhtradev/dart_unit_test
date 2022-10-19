@@ -4,12 +4,12 @@
 
 1. Install the dependencies
 
-    ```dart pub install```
+    ```flutter pub get```
 
 2. Build runner
 
-    ```dart pub run build_runner build```
+    ```flutter pub run build_runner build```
 
 3. Run the test
 
-    ```dart test```
+    ```flutter test```
