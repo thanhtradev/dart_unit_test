@@ -11,15 +11,19 @@ void main() {
   late String baseUrl;
 
   DioMockResponsesAdapter _createMockAdapterForSearchRequest(
-      int responseCode, Object responseBody) {
-    return DioMockResponsesAdapter(MockAdapterInterceptor(
-      RequestType.GET,
-      baseUrl,
-      "/search",
-      {"country": "us"},
-      responseBody,
-      responseCode,
-    ));
+    int responseCode,
+    Object responseBody,
+  ) {
+    return DioMockResponsesAdapter(
+      MockAdapterInterceptor(
+        RequestType.GET,
+        baseUrl,
+        "/search",
+        {"country": "us"},
+        responseBody,
+        responseCode,
+      ),
+    );
   }
 
   List<Map<String, dynamic>> generateTwoValidUniversities() => [

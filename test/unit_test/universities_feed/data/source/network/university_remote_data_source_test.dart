@@ -23,7 +23,7 @@ void main() {
 
     test('Test dataSource calls getUniversitiesByCountry from endpoint', () {
       when(endpoint.getUniversitiesByCountry("test"))
-          .thenAnswer((realInvocation) => Future.value(<ApiUniversityModel>[]));
+          .thenAnswer((_) => Future.value(<ApiUniversityModel>[]));
 
       dataSource.getUniversitiesByCountry("test");
       verify(endpoint.getUniversitiesByCountry("test"));
@@ -32,7 +32,7 @@ void main() {
     test('Test dataSource maps getUniversitiesByCountry response to Stream',
         () {
       when(endpoint.getUniversitiesByCountry("test"))
-          .thenAnswer((realInvocation) => Future.value(<ApiUniversityModel>[]));
+          .thenAnswer((_) => Future.value(<ApiUniversityModel>[]));
 
       expect(
         dataSource.getUniversitiesByCountry("test"),
@@ -52,7 +52,7 @@ void main() {
         errors: null,
       );
       when(endpoint.getUniversitiesByCountry("test"))
-          .thenAnswer((realInvocation) => Future.error(mockApiError));
+          .thenAnswer((_) => Future.error(mockApiError));
 
       expect(
         dataSource.getUniversitiesByCountry("test"),
