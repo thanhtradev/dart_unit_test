@@ -94,9 +94,14 @@
 
 ## Code flow
 
-* Code flow is in the `lib` folder
+### Code flow is in the `lib` folder
 
 ![Code flow](https://github.com/thanhtradev/dart_unit_test/blob/main/screenshot/workflow.jpg)
+
+### Network interceptor
+
+![Code flow](https://github.com/thanhtradev/dart_unit_test/blob/main/screenshot/network_interceptor.jpg)
+
 
 #### Connect me via: thanhtra2001.stt@gmail.com
 #### Copyright &#169; 2022 by thanhtradev
