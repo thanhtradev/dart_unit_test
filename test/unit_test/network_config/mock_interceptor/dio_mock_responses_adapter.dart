@@ -20,13 +20,15 @@ class DioMockResponsesAdapter extends HttpClientAdapter {
         options.baseUrl == interceptor.uri &&
         options.queryParameters.hasSameElementsAs(interceptor.query) &&
         options.path == interceptor.path) {
-      return Future.value(ResponseBody.fromString(
-        jsonEncode(interceptor.serializableResponse),
-        interceptor.responseCode,
-        headers: {
-          "content-type": ["application/json"]
-        },
-      ));
+      return Future.value(
+        ResponseBody.fromString(
+          jsonEncode(interceptor.serializableResponse),
+          interceptor.responseCode,
+          headers: {
+            "content-type": ["application/json"]
+          },
+        ),
+      );
     }
     return Future.value(ResponseBody.fromString(
         jsonEncode(
